@@ -1,0 +1,67 @@
+#cont-vista{
+    border: solid 2px #81277a;
+    border-radius: 5px;
+   width: 650px;
+   margin-top: 40px;
+   background-color: rgb(208, 177, 214);
+}
+#editor {
+    box-sizing: border-box;;
+    resize: both;
+    background-color: rgb(208, 177, 214);
+    border: none;
+    font-family: monospace;
+}       
+#cont-editor{
+    border: solid 2px #81277a;
+    border-radius: 5px;
+    background: #f0f0f0;
+    width: 550px;
+    height: 643px;
+    margin-top: 40px;
+   
+}
+#editor-header {
+    background: #81277a;
+    width: 547px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    
+}
+#vista-header {
+    background:  #81277a;
+    width: 647px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    
+}
+#contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    background-color: #ffd0fb;
+
+    
+}
+#foot{background-color: #ffd0fb;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    color: #81277a;
+}
+
+a i{
+    text-decoration: underline;
+    text-decoration-color: #81277a; /* Cambia este color */
+    color: #81277a;
+}
